@@ -1,157 +1,88 @@
- read.par <-
-function(par.file) {
-  # by Simon Hoyle June 2008
-  # This is only partly built. Needs to be extended so it gets the whole par file into an object. Then do the same for write.par...
-  # Nick : added sections explicitly for # tag flags; # tag fish rep; # tag fish rep group flags; # tag_fish_rep active flags; # tag_fish_rep target; # tag_fish_rep penalty
-
-  a <- readLines(par.file)
-  pfl <- as.numeric(unlist(strsplit(a[2],split="[[:blank:]]+"))[-1])
-  nages <- a[5]
-  afl <- as.numeric(unlist(strsplit(a[7],split="[[:blank:]]+"))[-1])
-  pos1 <- grep("fish flags",a) ; pos2 <- grep("tag flags",a)
-  ffl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-  for (i in (pos1+2):(pos2-1)) {
-    ffl <- rbind(ffl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-  nfisheries <- dim(ffl)[1]
-# Check if there are the new tag report sections in the par file
-  tsw <- 0  #Default switch setting on tag parameters to zero
-  tsw2 <- 0  #Default switch setting on tag parameters to zero
-  if(length(as.numeric(grep("# tag fish rep",a))) > 0){
-#   set the switch on for existence of tagging reporting parameters
-    tsw <- 1
-#   load block of tag flags
-    pos1 <- pos2 ; pos2 <- min(grep("# tag fish rep",a))
-    tfl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-    for (i in (pos1+2):(pos2-1)) {
-      tfl <- rbind(tfl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-#   load block of tag fish rep
-    pos1 <- pos2 ; pos2 <- grep("# tag fish rep group flags",a)
-    trpfl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-    for (i in (pos1+2):(pos2-2)) {
-      trpfl <- rbind(trpfl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-#   load block of tag fish rep group flags
-    pos1 <- pos2 ; pos2 <- grep("# tag_fish_rep active flags",a)
-    trpgpfl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-    for (i in (pos1+2):(pos2-1)) {      
-      trpgpfl <- rbind(trpgpfl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-# Check for presence of tag_fish_rep target and tag_fish_rep penalty blocks
-    if(length(as.numeric(grep("# tag_fish_rep target",a))) > 0) (tsw2 <- 1)
-#   load block of tag_fish_rep active flags
-    pos1 <- pos2
-    if(tsw2 == 1 ){
-      pos2 <- grep("# tag_fish_rep target",a)
-    } else {
-      pos2 <- grep("# region control flags",a)
-    }
-    trpacfl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-    for (i in (pos1+2):(pos2-1)) {
-      trpacfl <- rbind(trpacfl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-
-    if(tsw2 == 1 ){
-#   load block of tag_fish_rep target
-      pos1 <- pos2 ; pos2 <- grep("# tag_fish_rep penalty",a)
-      treptarg <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-      for (i in (pos1+2):(pos2-2)) {        # Note this is pos2-2 because there is a blank line
-        treptarg <- rbind(treptarg, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
+ read.par <- function(par.file)
+##======================================================================
+## re-write, P Kleiber, Jan 2012
+##  
+## Numeric elements of the par file are taken to be contiguous groups of
+## purely numeric file records preceeded by a header record indicated by
+## "#" in column 1. Numeric elements are extracted into a list with
+## names given by the header records preceeding each element. Special
+## case of numeric data within a header record is accomodated.
+##  
+## Several elements of the list are renamed for convenience in accessing
+## the list, and some derived quantities are added to the list.
+##======================================================================
+{
+    ## read input as text
+  txt <- readLines(par.file)
+    ## get rid of blank (or almost blank) lines
+  blanks <- grep("^#* *$|^#[ .0-9]*$",txt)
+          ## last bit above assumes that a record with "#" followed
+          ## by purely numeric stuff is a commented out record
+  if(length(blanks)>0) txt <- txt[-blanks]
+    ## extract numeric parts into a list with elements
+    ##  named by the preceeding header records
+  par <- list()
+  hptrs <- c(which(substr(txt,1,1)=="#"),length(txt)+1)
+  for(hpt in 1:(length(hptrs)-1)) {
+    p1 <- hptrs[hpt]+1
+    p2 <- hptrs[hpt+1]-1
+          ##print(paste(hpt,txt[hptrs[hpt]],p1,p2))
+    if(p2 >= p1) {
+      tt <- scanText(txt[p1:p2])
+      nrow=p2-p1+1
+      ss <- length(tt)/nrow
+      if(identical(ss,floor(ss)))
+           par[[txt[hptrs[hpt]]]] <- drop(matrix(as.numeric(tt),byrow=TRUE,nrow=nrow))
+      else {
+        xx <- list()
+        for(i in 1:nrow) xx[[i]] <- extract.numeric(txt[p1+i-1])
+        names(xx) <- format(1:nrow)
+        par[[txt[hptrs[hpt]]]] <- xx
       }
-#   load block of tag_fish_rep penalty
-      pos1 <- pos2 ; pos2 <- grep("# region control flags",a)
-      treppen <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-      for (i in (pos1+2):(pos2-2)) {        # Note this is pos2-2 because there is a blank line
-        treppen <- rbind(treppen, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-      }
-    } 
-  } else {   # Tag reporting rate parameter blocks - just load tag flags
-#   load block of tag flags
-    pos1 <- pos2 ; pos2 <- grep("# region control flags",a)
-    tfl <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[-1])
-    for (i in (pos1+2):(pos2-1)) {
-      tfl <- rbind(tfl, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
     }
+    else par[[txt[hptrs[hpt]]]] <- extract.numeric(txt[hptrs[hpt]])
   }
-  pos1 <- grep("# percent maturity", a)[1]+1; maturity <- as.numeric(unlist(strsplit(a[pos1],split="[[:blank:]]+"))[-1])
-  pos1 <- grep("# total populations scaling parameter", a)[1]+1; totpop <- as.double(a[pos1])
-  pos1 <- grep("# implicit total populations scaling parameter", a)[1]+1; totpop_implicit <- as.double(a[pos1])
-  pos1 <- grep("# rec init pop level difference", a)[1]+1; rec_init <- as.double(a[pos1])
-  pos1 <- grep("# recruitment times", a)[1]+1; rectimes <- as.numeric(unlist(strsplit(a[pos1],split="[[:blank:]]+"))[-1])
-  pos1 <- grep("# relative recruitment", a)[1]+2; rel_recruitment <- as.numeric(unlist(strsplit(a[pos1],split="[[:blank:]]+"))[-1])
-  pos1 <- grep("# fishery selectivity", a)[1]+1; selectivity <- as.numeric(unlist(strsplit(a[pos1],split="[[:blank:]]+"))[-1])
-  for (i in (pos1+2):(pos1+nfisheries)) {
-    selectivity <- rbind(selectivity, as.numeric(unlist(strsplit(a[i],split="[[:blank:]]+"))[-1]))
-    }
-  pos1 <- grep("# natural mortality coefficient", a)[1]+2; Mbase <- as.double(a[pos1])
+  par[["num.elements"]] <- length(par)
   
-  pos1 <- grep("# effort deviation coefficients", a)[1]; pos1b <- pos1+nfisheries; effdevcoffs <- strsplit(a[(pos1+1):pos1b],split="[[:blank:]]+")
-  rowMax <- max(sapply(effdevcoffs, length)) 
-  effdevcoffs <- do.call(rbind, lapply(effdevcoffs, function(x){ length(x) <- rowMax; as.numeric(x[2:rowMax]) }))
-  pos1 <- grep("# average catchability coefficients", a)[1]+3; meanqs <- as.numeric(unlist(strsplit(a[pos1],split="[[:blank:]]+"))[-1])
-  pos1 <- grep("# Objective function value", a)[1]; obj <- as.double(a[pos1 + 1])
-  pos1 <- grep("# The number of parameters", a)[1]; npars <- as.double(a[pos1 + 1])
-  pos1 <- grep("# Maximum magnitude gradient value", a)[1]; gradient <- as.double(a[pos1 + 1])
-  pos1 <- grep("# The von Bertalanffy parameters", a)[1]; 
-     Lmin <- as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[1])
-     Lmax <- as.numeric(unlist(strsplit(a[pos1+2],split="[[:blank:]]+"))[1])
-     K    <- as.numeric(unlist(strsplit(a[pos1+3],split="[[:blank:]]+"))[1])
-  pos1 <- grep("# Variance parameters", a)[1]; 
-     growth_vars <- c(as.numeric(unlist(strsplit(a[pos1+1],split="[[:blank:]]+"))[1]),as.numeric(unlist(strsplit(a[pos1+2],split="[[:blank:]]+"))[1]))
-  pos1 <- grep("# extra par for Richards", a)[1]; Richards <- as.double(a[pos1 + 1])
-  pos1 <- grep("# age-class related parameters \\(age_pars\\)", a)[1]; 
-  M_offsets <-  as.numeric(unlist(strsplit(a[pos1+4],split="[[:blank:]]+"))[-1])
-  gr_offsets <- as.numeric(unlist(strsplit(a[pos1+5],split="[[:blank:]]+"))[-1])
-  
-# Check for existence of new tagging inputs
-  if(tsw != 0){
-    if(tsw2 == 1){  # Load all tag reporting rate blocks
-      par.obj <- list(pfl=pfl,
-                  nages=nages,
-                  afl=afl,ffl=ffl,tfl=tfl,trpfl=trpfl,trpgpfl=trpgpfl,trpacfl=trpacfl,treptarg=treptarg,treppen=treppen,
-                  maturity=maturity,totpop=totpop,totpop_implicit,totpop_implicit,
-                  rec_init=rec_init,rectimes=rectimes,rel_recruitment=rel_recruitment,
-                  Mbase=Mbase,
-                  selectivity=selectivity,
-                  effdevcoffs=effdevcoffs,
-                  meanqs=meanqs,
-                  obj=obj,
-                  npars=npars,
-                  gradient=gradient,
-                  Lmin=Lmin, Lmax=Lmax, K=K, growth_vars=growth_vars, Richards=Richards, gr_offsets=gr_offsets,                  
-                  rem=a[pos2:length(a)])
-    } else {      # Just load up to (including) tag rep active flags
-      par.obj <- list(pfl=pfl,
-                  nages=nages,
-                  afl=afl,ffl=ffl,tfl=tfl,trpfl=trpfl,trpgpfl=trpgpfl,trpacfl=trpacfl,
-                  maturity=maturity,totpop=totpop,totpop_implicit,totpop_implicit,
-                  rec_init=rec_init,rectimes=rectimes,rel_recruitment=rel_recruitment,
-                  Mbase=Mbase,
-                  selectivity=selectivity,
-                  effdevcoffs=effdevcoffs,
-                  meanqs=meanqs,
-                  obj=obj,
-                  npars=npars,
-                  gradient=gradient,
-                  Lmin=Lmin, Lmax=Lmax, K=K, growth_vars=growth_vars, Richards=Richards, gr_offsets=gr_offsets,                  
-                  rem=a[pos2:length(a)])
-    }    
-  } else {    # Just load up to and including tag flags
-    par.obj <- list(pfl=pfl,
-                  nages=nages,
-                  afl=afl,ffl=ffl,tfl=tfl,
-                  maturity=maturity,totpop=totpop,totpop_implicit,totpop_implicit,
-                  rec_init=rec_init,rectimes=rectimes,rel_recruitment=rel_recruitment,
-                  Mbase=Mbase,
-                  selectivity=selectivity,
-                  effdevcoffs=effdevcoffs,
-                  meanqs=meanqs,
-                  obj=obj,
-                  npars=npars,
-                  gradient=gradient,
-                  Lmin=Lmin, Lmax=Lmax, K=K, growth_vars=growth_vars, Richards=Richards, gr_offsets=gr_offsets,                  
-                  rem=a[pos2:length(a)])
-  }  
-  return(par.obj)
-  }
+    ## for convenience, rename some elements of the list
+  names(par)[grep("# The parest_flags",names(par))] <- "pfl"
+  names(par)[grep("# The number of age classes",names(par))] <- "nages"
+  names(par)[grep("# age flags",names(par))] <- "afl"
+  names(par)[grep("# fish flags",names(par))] <- "ffl"
+  names(par)[grep("# tag flags",names(par))] <- "tfl"
+  names(par)[grep("# tag fish rep$",names(par))] <- "trpfl"
+  names(par)[grep("# tag fish rep group flags",names(par))] <- "trpgpfl"
+  names(par)[grep("# tag_fish_rep active flags",names(par))] <- "trpacfl"
+  names(par)[grep("# tag_fish_rep target",names(par))] <- "treptarg"
+  names(par)[grep("# treptarg",names(par))] <- "treppen"
+  names(par)[grep("# percent maturity",names(par))] <- "maturity"
+  names(par)[grep("# total populations scaling parameter",names(par))] <- "totpop"
+  names(par)[grep("# implicit total populations scaling parameter",names(par))] <- "totpop_implicit"
+  names(par)[grep("# rec init pop level difference",names(par))] <- "rec_init"
+  names(par)[grep("# recruitment times",names(par))] <- "rectimes"
+  names(par)[grep("# relative recruitment ",names(par))] <- "rel_recruitment"
+  names(par)[grep("# fishery selectivity",names(par))] <- "selectivity"
+  names(par)[grep("# natural mortality coefficient",names(par))] <- "Mbase"
+  names(par)[grep("# effort deviation coefficients",names(par))] <- "effdevcoffs"
+    ## Note: effdevcoffs is an unstacked ragged array rather than a matrix padded with NAs
+  names(par)[grep("# average catchability coefficients",names(par))] <- "meanqs"
+  names(par)[grep("# Objective function value",names(par))] <- "obj"
+  names(par)[grep("# The number of parameters",names(par))] <- "npars"
+  names(par)[grep("# Maximum magnitude gradient value",names(par))] <- "gradient"
+  names(par)[grep("# extra par for Richards",names(par))] <- "Richards"
+  ##names(par)[grep("",names(par))] <- ""
+
+    ## derive some exta elements for the list
+  par$nfisheries <- dim(par$ffl)[1]
+  pos <- grep("# The von Bertalanffy parameters",names(par))
+    par$Lmin <- par[[pos]][1,1]
+    par$Lmax <- par[[pos]][2,1]
+    par$K    <- par[[pos]][3,1]
+  pos <- grep("# Variance parameters",names(par))
+    par$growth_vars <- par[[pos]][,1]
+  pos <- grep("# age-class related parameters",names(par))
+    par$M_offsets <-  par[[pos]][2,]
+    par$gr_offsets <- par[[pos]][3,]
+ 
+  return(par)
+}
