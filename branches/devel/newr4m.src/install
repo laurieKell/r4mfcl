@@ -1,5 +1,5 @@
 #!/bin/sh
-pkg=R4MFCL
+pkg=newr4m
 R CMD build $pkg
 R CMD check $pkg |tee tt
 if [ ` grep -c ERROR tt` == 0 ] ; then
