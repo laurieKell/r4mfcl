@@ -1,0 +1,10 @@
+Package: newr4m
+Title: R funcions for MFCL
+Version: 0.1
+Author: Simon Hoyle
+Description: miscellaneous funtions for dealing with input to and output from MFCL
+Maintainer: <simonh@spc.int>
+License: GPL-2
+Date: 2012-02-08
+Packaged: 2012-02-18 02:31:51 UTC; pkleiber
+Built: R 2.14.1; ; 2012-02-18 02:32:00 UTC; unix
