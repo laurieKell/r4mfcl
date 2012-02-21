@@ -6,6 +6,7 @@ plotname="H:\\rmfcl\\test\\figs\\biomass",
 plottype="wmf")
 {
 ##-----------------------------------------------------------------------
+# Based on original by PK
 # SJH 20/1/2009
 # Plots biomass combined across all regions
 # Option to add on CI as a polygoon
