@@ -1,5 +1,7 @@
  read.tags.JP <-
 function(tagfile,reg_areas,fisheries) {
+# Read Japanese tag data for skj assessment
+# SDH 2010
   b <- count.fields(tagfile, skip=0)
 
   a <- readLines(tagfile)
