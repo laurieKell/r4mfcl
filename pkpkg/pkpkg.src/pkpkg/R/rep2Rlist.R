@@ -18,7 +18,7 @@ rep2Rlist = function(fn) {
     if(i!=nv) irr=match(vnam[i+1],ifile) else irr=length(ifile)+1 #next row
     dum=NA
     if(irr-ir==2) dum=as.double(scan(fn,skip=ir,nlines=1,quiet=TRUE,what=""))
-    if(irr-ir>2) dum=as.matrix(read.table(fn,skip=ir,nrow=irr-ir-1,fill=TRUE))
+    if(irr-ir>2) dum=as.matrix(read.table(fn,skip=ir,nrows=irr-ir-1,fill=TRUE))
     
     if(is.numeric(dum)) { #Logical test to ensure dealing with numbers
       A[[vnam[i]]]=dum

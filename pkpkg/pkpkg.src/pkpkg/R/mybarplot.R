@@ -65,7 +65,7 @@ function (height, width = 1, space = NULL, names.arg = NULL,
                 na.rm = TRUE)
     }
     if (beside) 
-        w.m <- matrix(w.m, nc = NC)
+        w.m <- matrix(w.m, ncol = NC)
     if (plot) {
         opar <- if (horiz) 
             par(xaxs = "i", xpd = xpd)

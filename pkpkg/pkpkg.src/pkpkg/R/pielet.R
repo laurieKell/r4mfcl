@@ -17,7 +17,7 @@ pielet <- function(x,y,r,a,col,...) {
   
   pts <- list()
   for(i in 2:length(a)) {
-    pts[[i-1]] <- c(0+0i,complex(mod=r,arg=seq(a[i-1],a[i],length=50)),0+0i)
+    pts[[i-1]] <- c(0+0i,complex(modulus=r,argument=seq(a[i-1],a[i],length=50)),0+0i)
   }
   pts <- sapply(pts,function(x) complex(,Re(x)*asp,Im(x)))
 
