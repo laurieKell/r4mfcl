@@ -1,3 +1,10 @@
+##' catch/effort and sample data from three matrix to single matrix form 
+##' @title grp.mat
+##' @param mat.ce 
+##' @param mat.l 
+##' @param mat.w 
+##' @return single matrix
+##' @author Pierre Kleiber
 grp.mat <- function(mat.ce,mat.l,mat.w) {
 ##=============================================================================   
 ## Transforms matrices of a 3 matrix form of a frq object into the mushed
