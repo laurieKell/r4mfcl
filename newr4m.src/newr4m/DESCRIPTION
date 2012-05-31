@@ -2,8 +2,25 @@ Package: newr4m
 Title: R funcions for MFCL
 Version: 0.1
 Author: Simon Hoyle
-Description: miscellaneous funtions for dealing with input to and output from MFCL
-Maintainer:  <simonh@spc.int>
+Description: miscellaneous funtions for dealing with input to and output from
+    MFCL
+Maintainer: <simonh@spc.int>
 License: GPL-2
 Date: 2012-02-08
 Packaged: Sun Jun  5 11:11:18 NCT 2011, P Kleiber
+Collate:
+    'grp.mat.R'
+    'is.identical.R'
+    'read.frq.R'
+    'read.ini.R'
+    'read.par.R'
+    'read.tag.R'
+    'rwtest.frq.R'
+    'rwtest.ini.R'
+    'rwtest.par.R'
+    'rwtest.tag.R'
+    'ungrp.mat.R'
+    'write.frq.R'
+    'write.ini.R'
+    'write.par.R'
+    'write.tag.R'
