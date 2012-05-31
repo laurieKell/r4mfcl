@@ -1,13 +1,11 @@
-read.ini <-
-function(ini.file) {
+read.ini <- function(ini.file) 
 ##============================================================================
 ## by Simon Hoyle June 2008
 ##  revised, PK June 2011
 ##============================================================================
+{
   a <- readLines(ini.file)
-
   hpts <- grep("^#",a)
-
   ini.obj <- list()
  
   pos <- grep("version number",a,ignore.case=T)+1
@@ -61,13 +59,9 @@ function(ini.file) {
   
   pos <- grep("# move",a,ignore.case=T)+1
   ini.obj$movemap <- scanText(a[pos],what=0)
-  
-  ##pos <- grep("# diffusion coffs",a,ignore.case=T)+1
-  ##ini.obj$lendiffs  <- scanText(a[pos],what=0)
-  
   if(ini.obj$movemap[1]==0)
   {
-    diffcoffs <- 0
+    ini.obj$diffcoffs <- 0
   } else {
     pos <- grep("# diffusion coffs",a,ignore.case=T)+1
     p2 <- hpts[hpts>pos][1]-1
