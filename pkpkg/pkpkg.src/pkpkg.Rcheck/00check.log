@@ -1,0 +1,98 @@
+* using log directory 'C:/Users/simonh/Documents/Software/r4mfcl/pkpkg/pkpkg.src/pkpkg.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: i386-w64-mingw32 (32-bit)
+* using session charset: ISO8859-1
+* checking for file 'pkpkg/DESCRIPTION' ... OK
+* this is package 'pkpkg' version '1.1.2'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'pkpkg' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Sweatex: no visible global function definition for 'Sys.putenv'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'POSIX2day' 'POSIX2hr.t' 'POSIX2mo' 'POSIX2quarter' 'POSIX2yr'
+  'POSIX2yr.t' 'Sweatex' 'adm.std' 'admnormapprox' 'admprofile'
+  'aggdensity' 'bumppointers' 'cmd' 'daysPerYear' 'easylayout'
+  'errplot' 'extract.numeric' 'fix.oracle.input' 'getcol' 'legend.pk'
+  'legend2' 'lsf' 'lsv' 'missingfiles' 'mybarplot' 'myfunction'
+  'na2zero' 'paletteTest' 'pielet' 'plot0' 'plotSymbols' 'pngfile'
+  'rep2Rlist' 'rwiki.search' 'showsymbols' 'sumna' 'table3' 'test'
+All user-level objects in a package should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... WARNING
+Codoc mismatches from documentation object 'jpegfile':
+jpegfile
+  Code: function(fname = "R-plot")
+  Docs: function(fname = "R-plot", quality = 100, epsdir = FALSE)
+  Argument names in docs not in code:
+    quality epsdir
+
+Codoc mismatches from documentation object 'prepplot':
+prepplot
+  Code: function(x, y, xlim = range(x, na.rm = TRUE), ylim = range(if
+                 (zero) 0 else NA, y, na.rm = TRUE), zero = TRUE, xaxis
+                 = TRUE, yaxis = TRUE, xtix = xaxis, ytix = yaxis, cex
+                 = 1.1, box = TRUE, axwidth = 1, ...)
+  Docs: function(x, y, xlim = range(x, na.rm = TRUE), ylim = range(if
+                 (zero) 0 else NA, y, na.rm = TRUE), zero = TRUE, xaxis
+                 = TRUE, xpos = par("usr")[3], yaxis = TRUE, xtix =
+                 xaxis, ytix = yaxis, cex = 1.3, lwd = 1, ...)
+  Argument names in code not in docs:
+    box axwidth
+  Argument names in docs not in code:
+    xpos lwd
+  Mismatches in argument names (first 3):
+    Position: 7 Code: yaxis Docs: xpos
+    Position: 8 Code: xtix Docs: yaxis
+    Position: 9 Code: ytix Docs: xtix
+  Mismatches in argument default values:
+    Name: 'cex' Code: 1.1 Docs: 1.3
+
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... ERROR
+Running examples in 'pkpkg-Ex.R' failed
+The error most likely occurred in:
+
+> ### Name: plotmap
+> ### Title: plot maps
+> ### Aliases: plotmap
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> plotmap(130,250,-5,65,5,landcolor="grey")
+Warning in file(con, "r") :
+  cannot open file 'C:\Users\simonh\AppData\Local\Temp\RtmpMzT4Es\gmtmap10885af11f79': No such file or directory
+Error in file(con, "r") : cannot open the connection
+Calls: plotmap -> gmt -> readLines -> file
+Execution halted

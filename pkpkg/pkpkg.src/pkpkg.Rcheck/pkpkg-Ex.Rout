@@ -1,0 +1,52 @@
+
+R version 3.0.1 (2013-05-16) -- "Good Sport"
+Copyright (C) 2013 The R Foundation for Statistical Computing
+Platform: i386-w64-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> pkgname <- "pkpkg"
+> source(file.path(R.home("share"), "R", "examples-header.R"))
+> options(warn = 1)
+> options(pager = "console")
+> library('pkpkg')
+
+Attaching package: 'pkpkg'
+
+The following object is masked from 'package:base':
+
+    dim
+
+> 
+> base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+> cleanEx()
+> nameEx("plotmap")
+> ### * plotmap
+> 
+> flush(stderr()); flush(stdout())
+> 
+> ### Name: plotmap
+> ### Title: plot maps
+> ### Aliases: plotmap
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> plotmap(130,250,-5,65,5,landcolor="grey")
+Warning in file(con, "r") :
+  cannot open file 'C:\Users\simonh\AppData\Local\Temp\RtmpMzT4Es\gmtmap10885af11f79': No such file or directory
+Error in file(con, "r") : cannot open the connection
+Calls: plotmap -> gmt -> readLines -> file
+Execution halted

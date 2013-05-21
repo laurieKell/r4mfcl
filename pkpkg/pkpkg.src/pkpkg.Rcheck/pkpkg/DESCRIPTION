@@ -1,0 +1,11 @@
+Package: pkpkg
+Namespace: pkpkg
+Title: MISC STUFF
+Version: 1.1.2
+Author: Pierre Kleiber
+Description: Various handy functions -- some necessary for R.mfcl packages
+Maintainer: <pkleiber.hi@gmail.com>
+License: GPL-2
+Date: 2010-11-05
+Packaged: 2010-11-18 21:23:19 UTC; pkleiber
+Built: R 3.0.1; ; 2013-05-21 00:09:01 UTC; windows

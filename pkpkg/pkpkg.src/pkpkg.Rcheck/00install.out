@@ -1,0 +1,88 @@
+Loading required package: tcltk
+Loading required package: Hmisc
+Loading required package: survival
+Loading required package: stats
+Loading required package: graphics
+Loading required package: splines
+Hmisc library by Frank E Harrell Jr
+
+Type library(help='Hmisc'), ?Overview, or ?Hmisc.Overview')
+to see overall documentation.
+
+NOTE:Hmisc no longer redefines [.factor to drop unused levels when
+subsetting.  To get the old behavior of Hmisc type dropUnusedLevels().
+
+
+Attaching package: 'Hmisc'
+
+The following object is masked from 'package:survival':
+
+    untangle.specials
+
+The following object is masked from 'package:base':
+
+    format.pval, round.POSIXt, trunc.POSIXt, units
+
+Loading required package: R2HTML
+* installing *source* package 'pkpkg' ...
+** R
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+*** arch - i386
+Loading required package: tcltk
+Loading required package: Hmisc
+Loading required package: survival
+Loading required package: stats
+Loading required package: graphics
+Loading required package: splines
+Hmisc library by Frank E Harrell Jr
+
+Type library(help='Hmisc'), ?Overview, or ?Hmisc.Overview')
+to see overall documentation.
+
+NOTE:Hmisc no longer redefines [.factor to drop unused levels when
+subsetting.  To get the old behavior of Hmisc type dropUnusedLevels().
+
+
+Attaching package: 'Hmisc'
+
+The following object is masked from 'package:survival':
+
+    untangle.specials
+
+The following object is masked from 'package:base':
+
+    format.pval, round.POSIXt, trunc.POSIXt, units
+
+Loading required package: R2HTML
+*** arch - x64
+Loading required package: tcltk
+Loading required package: Hmisc
+Loading required package: survival
+Loading required package: stats
+Loading required package: graphics
+Loading required package: splines
+Hmisc library by Frank E Harrell Jr
+
+Type library(help='Hmisc'), ?Overview, or ?Hmisc.Overview')
+to see overall documentation.
+
+NOTE:Hmisc no longer redefines [.factor to drop unused levels when
+subsetting.  To get the old behavior of Hmisc type dropUnusedLevels().
+
+
+Attaching package: 'Hmisc'
+
+The following object is masked from 'package:survival':
+
+    untangle.specials
+
+The following object is masked from 'package:base':
+
+    format.pval, round.POSIXt, trunc.POSIXt, units
+
+Loading required package: R2HTML
+* DONE (pkpkg)
