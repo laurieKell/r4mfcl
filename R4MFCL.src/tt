@@ -1,21 +1,17 @@
-
-i686-pc-linux-gnu, R 2.15.0, Wed May 30 14:01:24 2012
-
-* using log directory '/home/pkleiber/Desktop/R4MFCL_trunk/r4mfcl/R4MFCL.src/R4MFCL.Rcheck'
-* using R version 2.15.0 (2012-03-30)
-* using platform: i686-pc-linux-gnu (32-bit)
-* using session charset: ASCII
-* checking for file 'R4MFCL/DESCRIPTION' ... OK
-* this is package 'R4MFCL' version '0.1'
-* checking package namespace information ... OK
+* using log directory ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck’
+* using R version 2.13.0 (2011-04-13)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘R4MFCL/DESCRIPTION’ ... OK
+* this is package ‘R4MFCL’ version ‘0.1’
+* checking package name space information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
-* checking if there is a namespace ... OK
 * checking for executable files ... OK
-* checking whether package 'R4MFCL' can be installed ... WARNING
+* checking whether package ‘R4MFCL’ can be installed ... WARNING
 Found the following significant warnings:
-  Warning: /home/pkleiber/Desktop/R4MFCL_trunk/r4mfcl/R4MFCL.src/R4MFCL/man/alb.pagocatch_2009.Rd:52: unexpected END_OF_INPUT '
-See '/home/pkleiber/Desktop/R4MFCL_trunk/r4mfcl/R4MFCL.src/R4MFCL.Rcheck/00install.out' for details.
+  Warning: /home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/man/alb.pagocatch_2009.Rd:52: unexpected END_OF_INPUT '
+See ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00install.out’ for details.
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for portable file names ... OK
@@ -29,12 +25,12 @@ See '/home/pkleiber/Desktop/R4MFCL_trunk/r4mfcl/R4MFCL.src/R4MFCL.Rcheck/00insta
 * checking whether the package can be loaded ... OK
 * checking whether the package can be loaded with stated dependencies ... OK
 * checking whether the package can be unloaded cleanly ... OK
-* checking whether the namespace can be loaded with stated dependencies ... OK
-* checking whether the namespace can be unloaded cleanly ... OK
+* checking whether the name space can be loaded with stated dependencies ... OK
+* checking whether the name space can be unloaded cleanly ... OK
 * checking for unstated dependencies in R code ... WARNING
-'library' or 'require' call not declared from: 'RODBC'
-See the information on DESCRIPTION files in the chapter 'Creating R packages' of the
-'Writing R Extensions' manual.
+'library' or 'require' call not declared from: RODBC
+See the information on DESCRIPTION files in the chapter 'Creating R
+packages' of the 'Writing R Extensions' manual.
 * checking S3 generic/method consistency ... WARNING
 merge:
   function(x, y, ...)
@@ -142,75 +138,76 @@ plot:
 plot.recruitment.combined:
   function(plotdir, plotrep, varfile, plotname, plottype)
 
-See section 'Generic functions and methods' of the 'Writing R Extensions' manual.
+See section 'Generic functions and methods' of the 'Writing R
+Extensions' manual.
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-add.cpue.frq: no visible binding for global variable 'out.data'
-alb.clean.lfdata: no visible binding for global variable 'lfd'
-carry.effort.frq: no visible binding for global variable 'out.data'
-clean.lfdata: no visible binding for global variable 'lfd'
-compare.frq.size: no visible binding for global variable 'years'
-compare.size.frq: no visible global function definition for 'pngfile'
-compare.size.frq: no visible global function definition for 'jpegfile'
-condor.go: no visible binding for global variable 'condor_files'
-condor.go2: no visible binding for global variable 'suball'
-condor.go2: no visible binding for global variable 'condor_files'
-create.ver6.frq: no visible binding for global variable 'base.frq'
+add.cpue.frq: no visible binding for global variable ‘out.data’
+alb.clean.lfdata: no visible binding for global variable ‘lfd’
+carry.effort.frq: no visible binding for global variable ‘out.data’
+clean.lfdata: no visible binding for global variable ‘lfd’
+compare.frq.size: no visible binding for global variable ‘years’
+compare.size.frq: no visible global function definition for ‘pngfile’
+compare.size.frq: no visible global function definition for ‘jpegfile’
+condor.go: no visible binding for global variable ‘condor_files’
+condor.go2: no visible binding for global variable ‘suball’
+condor.go2: no visible binding for global variable ‘condor_files’
+create.ver6.frq: no visible binding for global variable ‘base.frq’
 frq.remove.size.or.weight.data: no visible binding for global variable
-  'test.data'
-get.critical.age: no visible binding for global variable 'Base.rep'
-get.length.output: no visible binding for global variable 'lfdata'
-get.length.output: no visible binding for global variable 'region'
-get.length.output: no visible binding for global variable 'strat'
-get.tag.structure: no visible global function definition for 'getnums'
-get.tag.structure: no visible global function definition for 'scanText'
-get.weight.output: no visible binding for global variable 'wtdata'
-get.weight.output: no visible binding for global variable 'region'
-labels_store: no visible binding for global variable 'basecase.labels'
+  ‘test.data’
+get.critical.age: no visible binding for global variable ‘Base.rep’
+get.length.output: no visible binding for global variable ‘lfdata’
+get.length.output: no visible binding for global variable ‘region’
+get.length.output: no visible binding for global variable ‘strat’
+get.tag.structure: no visible global function definition for ‘getnums’
+get.tag.structure: no visible global function definition for ‘scanText’
+get.weight.output: no visible binding for global variable ‘wtdata’
+get.weight.output: no visible binding for global variable ‘region’
+labels_store: no visible binding for global variable ‘basecase.labels’
 load.LFdata: no visible global function definition for
-  'odbcDriverConnect'
-load.LFdata: no visible global function definition for 'sqlTables'
-load.LFdata: no visible global function definition for 'odbcGetInfo'
-load.LFdata: no visible global function definition for 'sqlQuery'
+  ‘odbcDriverConnect’
+load.LFdata: no visible global function definition for ‘sqlTables’
+load.LFdata: no visible global function definition for ‘odbcGetInfo’
+load.LFdata: no visible global function definition for ‘sqlQuery’
 make.projection.betyft.frq: no visible binding for global variable
-  'base.frq'
-map_all_pacific: no visible global function definition for 'map'
-old.condor.go: no visible binding for global variable 'suball'
-old.condor.go: no visible binding for global variable 'condor_files'
-oldsetup: no visible binding for global variable 'pl2'
-oldsetup: no visible binding for global variable 'basedir'
-pagocatch: no visible binding for global variable 'pl2'
-plot.Kobe: no visible binding for global variable 'test'
-plot.biomass: no visible binding for global variable 'test'
-plot.biomass.combined: no visible binding for global variable 'test'
-plot.fishery.impact.r: no visible binding for global variable 'testq0'
+  ‘base.frq’
+map_all_pacific: no visible global function definition for ‘map’
+old.condor.go: no visible binding for global variable ‘suball’
+old.condor.go: no visible binding for global variable ‘condor_files’
+oldsetup: no visible binding for global variable ‘pl2’
+oldsetup: no visible binding for global variable ‘basedir’
+pagocatch: no visible binding for global variable ‘pl2’
+plot.Kobe: no visible binding for global variable ‘test’
+plot.biomass: no visible binding for global variable ‘test’
+plot.biomass.combined: no visible binding for global variable ‘test’
+plot.fishery.impact.r: no visible binding for global variable ‘testq0’
 plot.fishery.impact.r: no visible binding for global variable
-  'fish.ann'
+  ‘fish.ann’
 plot.fishery.impact.r: no visible binding for global variable
-  'nofish.ann'
-plot.mfcl.betyft09: no visible global function definition for 'map'
-plot.nofishing: no visible binding for global variable 'testq0'
+  ‘nofish.ann’
+plot.mfcl.betyft09: no visible global function definition for ‘map’
+plot.nofishing: no visible binding for global variable ‘testq0’
 plot.nofishing.combined: no visible binding for global variable
-  'testq0'
-plot.pacific.WCPFC: no visible global function definition for 'map'
-plot.pacific.alb: no visible global function definition for 'map'
-plot.pacific.skj: no visible global function definition for 'map'
-plot.pacific.species: no visible global function definition for 'map'
-plot.pacific.yft: no visible global function definition for 'map'
-plot.recruitment: no visible binding for global variable 'test'
+  ‘testq0’
+plot.pacific.WCPFC: no visible global function definition for ‘map’
+plot.pacific.alb: no visible global function definition for ‘map’
+plot.pacific.skj: no visible global function definition for ‘map’
+plot.pacific.species: no visible global function definition for ‘map’
+plot.pacific.yft: no visible global function definition for ‘map’
+plot.recruitment: no visible binding for global variable ‘test’
 plot.recruitment.combined: no visible binding for global variable
-  'test'
-read.ini: no visible global function definition for 'scanText'
-reconstruct.frq.ce: no visible binding for global variable 'out.data'
+  ‘test’
+read.ini: no visible global function definition for ‘scanText’
+reconstruct.frq.ce: no visible binding for global variable ‘out.data’
 reconstruct.frq.ce2008: no visible binding for global variable
-  'out.data'
-retro.frq: no visible binding for global variable 'yr'
+  ‘out.data’
+retro.frq: no visible binding for global variable ‘yr’
 run.profile: no visible global function definition for
-  'gocondor.commandline.alb'
-setup.cpue: no visible binding for global variable 'psfshries'
-setup.growth: no visible binding for global variable 'fixVB'
-setup.growth: no visible binding for global variable 'startVB'
+  ‘gocondor.commandline.alb’
+setup.cpue: no visible binding for global variable ‘psfshries’
+setup.growth: no visible binding for global variable ‘fixVB’
+setup.growth: no visible binding for global variable ‘startVB’
 * checking Rd files ... WARNING
 prepare_Rd: Convert.frq.ver6.Rd:7-9: Dropping empty section \description
 prepare_Rd: Convert.frq.ver6.Rd:19-21: Dropping empty section \details
@@ -1298,11 +1295,11 @@ checkRd: (5) write_nmd.par.Rd:0-57: Must have a \description
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... WARNING
 Undocumented code objects:
-  'alb.pagocatch_2011' 'compare.frq.size' 'convert.frq.ver6'
-  'copy.condor.files' 'get.tag.structure' 'old.condor.go' 'ppath'
-  'rep.file'
+  alb.pagocatch_2011 compare.frq.size convert.frq.ver6
+  copy.condor.files get.tag.structure old.condor.go ppath rep.file
 All user-level objects in a package should have documentation entries.
-See the chapter 'Writing R documentation files' in the 'Writing R Extensions' manual.
+See the chapter 'Writing R documentation files' in manual 'Writing R
+Extensions'.
 * checking for code/documentation mismatches ... WARNING
 Functions/methods with usage in documentation object 'Convert.frq.ver6' but not in code:
   Convert.frq.ver6
@@ -1590,78 +1587,11 @@ write.ini
   Argument names in code not in docs:
     old.format
 
-* checking Rd \usage sections ... NOTE
-S3 methods shown with full name in documentation object 'merge.frq':
-  'merge.frq'
-
-S3 methods shown with full name in documentation object 'merge.tag':
-  'merge.tag'
-
-S3 methods shown with full name in documentation object 'plot.F.time':
-  'plot.F.time'
-
-S3 methods shown with full name in documentation object 'plot.Kobe':
-  'plot.Kobe'
-
-S3 methods shown with full name in documentation object 'plot.Kobe.template.bw':
-  'plot.Kobe.template.bw'
-
-S3 methods shown with full name in documentation object 'plot.Kobe.template.col':
-  'plot.Kobe.template.col'
-
-S3 methods shown with full name in documentation object 'plot.base.comparison':
-  'plot.base.comparison'
-
-S3 methods shown with full name in documentation object 'plot.biomass':
-  'plot.biomass'
-
-S3 methods shown with full name in documentation object 'plot.biomass.combined':
-  'plot.biomass.combined'
-
-S3 methods shown with full name in documentation object 'plot.fishery.impact.r':
-  'plot.fishery.impact.r'
-
-S3 methods shown with full name in documentation object 'plot.mfcl.betyft09':
-  'plot.mfcl.betyft09'
-
-S3 methods shown with full name in documentation object 'plot.nofishing':
-  'plot.nofishing'
-
-S3 methods shown with full name in documentation object 'plot.nofishing.combined':
-  'plot.nofishing.combined'
-
-S3 methods shown with full name in documentation object 'plot.pacific.WCPFC':
-  'plot.pacific.WCPFC'
-
-S3 methods shown with full name in documentation object 'plot.pacific.alb':
-  'plot.pacific.alb'
-
-S3 methods shown with full name in documentation object 'plot.pacific.skj':
-  'plot.pacific.skj'
-
-S3 methods shown with full name in documentation object 'plot.pacific.species':
-  'plot.pacific.species'
-
-S3 methods shown with full name in documentation object 'plot.pacific.yft':
-  'plot.pacific.yft'
-
-S3 methods shown with full name in documentation object 'plot.recruitment':
-  'plot.recruitment'
-
-S3 methods shown with full name in documentation object 'plot.recruitment.combined':
-  'plot.recruitment.combined'
-
-S3 methods shown with full name in documentation object 'sort.frq':
-  'sort.frq'
-
-The \usage entries for S3 methods should use the \method markup and not their full name.
-See the chapter 'Writing R documentation files' in the 'Writing R Extensions' manual.
+* checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking examples ... OK
 * checking PDF version of manual ... OK
-WARNING: There were 6 warnings.
-NOTE: There were 2 notes.
-See
-  '/home/pkleiber/Desktop/R4MFCL_trunk/r4mfcl/R4MFCL.src/R4MFCL.Rcheck/00check.log'
-for details.
+WARNING: There were 6 warnings, see
+  ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00check.log’
+for details

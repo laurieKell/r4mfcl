@@ -3,7 +3,7 @@ Hmm ... looks like a package
 This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4)
  file:line:error style messages enabled.
 entering extended mode
-(/tmp/RtmpyI4b53/Rd2pdf5bbc6c01/Rd2.tex
+(/tmp/RtmpV2iMQO/Rd2pdf3cad613/Rd2.tex
 LaTeX2e <2003/12/01>
 Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
 ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
@@ -318,7 +318,7 @@ hare/texmf/fonts/type1/urw/times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw/
 helvetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/
 share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/
 times/utmb8a.pfb>
-Output written on Rd2.pdf (67 pages, 249852 bytes).
+Output written on Rd2.pdf (67 pages, 249608 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
 Scanning input file ./Rd2.idx....done (403 entries accepted, 0 rejected).
@@ -329,7 +329,7 @@ Transcript written in ./Rd2.ilg.
 This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4)
  file:line:error style messages enabled.
 entering extended mode
-(/tmp/RtmpyI4b53/Rd2pdf5bbc6c01/Rd2.tex
+(/tmp/RtmpV2iMQO/Rd2pdf3cad613/Rd2.tex
 LaTeX2e <2003/12/01>
 Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
 ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
@@ -653,7 +653,7 @@ share/texmf/fonts/type1/urw/times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
 hare/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb>
-Output written on Rd2.pdf (74 pages, 418636 bytes).
+Output written on Rd2.pdf (74 pages, 418440 bytes).
 Transcript written on Rd2.log.
 This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
 Scanning input file ./Rd2.idx....done (403 entries accepted, 0 rejected).
@@ -664,7 +664,7 @@ Transcript written in ./Rd2.ilg.
 This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4)
  file:line:error style messages enabled.
 entering extended mode
-(/tmp/RtmpyI4b53/Rd2pdf5bbc6c01/Rd2.tex
+(/tmp/RtmpV2iMQO/Rd2pdf3cad613/Rd2.tex
 LaTeX2e <2003/12/01>
 Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
 ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
@@ -988,8 +988,8 @@ share/texmf/fonts/type1/urw/times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
 hare/texmf/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf/fonts/type1/urw
 /times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb>
-Output written on Rd2.pdf (74 pages, 419332 bytes).
+Output written on Rd2.pdf (74 pages, 419136 bytes).
 Transcript written on Rd2.log.
 Saving output to 'R4MFCL-manual.pdf' ...
 Done
-You may want to clean up by 'rm -rf /tmp/RtmpyI4b53/Rd2pdf5bbc6c01'
+You may want to clean up by 'rm -rf /tmp/RtmpV2iMQO/Rd2pdf3cad613'

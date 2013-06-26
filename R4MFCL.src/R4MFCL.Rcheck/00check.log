@@ -1,17 +1,17 @@
-* using log directory '/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck'
+* using log directory ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck’
 * using R version 2.13.0 (2011-04-13)
 * using platform: x86_64-unknown-linux-gnu (64-bit)
-* using session charset: ASCII
-* checking for file 'R4MFCL/DESCRIPTION' ... OK
-* this is package 'R4MFCL' version '0.1'
+* using session charset: UTF-8
+* checking for file ‘R4MFCL/DESCRIPTION’ ... OK
+* this is package ‘R4MFCL’ version ‘0.1’
 * checking package name space information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
 * checking for executable files ... OK
-* checking whether package 'R4MFCL' can be installed ... WARNING
+* checking whether package ‘R4MFCL’ can be installed ... WARNING
 Found the following significant warnings:
   Warning: /home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/man/alb.pagocatch_2009.Rd:52: unexpected END_OF_INPUT '
-See '/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00install.out' for details.
+See ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00install.out’ for details.
 * checking installed package size ... OK
 * checking package directory ... OK
 * checking for portable file names ... OK
@@ -143,180 +143,71 @@ Extensions' manual.
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-add.cpue.frq: no visible binding for global variable 'out.data'
-alb.clean.lfdata: no visible binding for global variable 'lfd'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/alb.clean.lfdata.R:5)
-carry.effort.frq: no visible binding for global variable 'out.data'
-clean.lfdata: no visible binding for global variable 'lfd'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/clean.lfdata.R:5)
-compare.frq.size: no visible binding for global variable 'years'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/old.compare.frq.size.R:51)
-compare.size.frq: no visible global function definition for 'jpegfile'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/compare.size.frq.R:226)
-compare.size.frq: no visible global function definition for 'jpegfile'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/compare.size.frq.R:302)
-condor.go: no visible binding for global variable 'condor_files'
-condor.go2: no visible binding for global variable 'suball'
-condor.go2: no visible binding for global variable 'condor_files'
-create.ver6.frq: no visible binding for global variable 'base.frq'
+add.cpue.frq: no visible binding for global variable ‘out.data’
+alb.clean.lfdata: no visible binding for global variable ‘lfd’
+carry.effort.frq: no visible binding for global variable ‘out.data’
+clean.lfdata: no visible binding for global variable ‘lfd’
+compare.frq.size: no visible binding for global variable ‘years’
+compare.size.frq: no visible global function definition for ‘pngfile’
+compare.size.frq: no visible global function definition for ‘jpegfile’
+condor.go: no visible binding for global variable ‘condor_files’
+condor.go2: no visible binding for global variable ‘suball’
+condor.go2: no visible binding for global variable ‘condor_files’
+create.ver6.frq: no visible binding for global variable ‘base.frq’
 frq.remove.size.or.weight.data: no visible binding for global variable
-  'test.data'
-get.critical.age: no visible binding for global variable 'Base.rep'
-get.length.output: no visible binding for global variable 'lfdata'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:21)
-get.length.output: no visible binding for global variable 'region'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:21)
-get.length.output: no visible binding for global variable 'region'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:22)
-get.length.output: no visible binding for global variable 'lfdata'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:23)
-get.length.output: no visible binding for global variable 'strat'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:42)
-get.length.output: no visible binding for global variable 'strat'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.length.output.R:44)
-get.tag.structure: no visible global function definition for 'getnums'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.tag.structure.R:52)
-get.tag.structure: no visible global function definition for 'getnums'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.tag.structure.R:53)
-get.tag.structure: no visible global function definition for 'getnums'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.tag.structure.R:59)
-get.tag.structure: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.tag.structure.R:83)
-get.tag.structure: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.tag.structure.R:84)
-get.weight.output: no visible binding for global variable 'wtdata'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.weight.output.R:18)
-get.weight.output: no visible binding for global variable 'region'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.weight.output.R:18)
-get.weight.output: no visible binding for global variable 'region'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.weight.output.R:19)
-get.weight.output: no visible binding for global variable 'wtdata'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/get.weight.output.R:20)
-labels_store: no visible binding for global variable 'basecase.labels'
+  ‘test.data’
+get.critical.age: no visible binding for global variable ‘Base.rep’
+get.length.output: no visible binding for global variable ‘lfdata’
+get.length.output: no visible binding for global variable ‘region’
+get.length.output: no visible binding for global variable ‘strat’
+get.tag.structure: no visible global function definition for ‘getnums’
+get.tag.structure: no visible global function definition for ‘scanText’
+get.weight.output: no visible binding for global variable ‘wtdata’
+get.weight.output: no visible binding for global variable ‘region’
+labels_store: no visible binding for global variable ‘basecase.labels’
 load.LFdata: no visible global function definition for
-  'odbcDriverConnect'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/load.LFdata.R:6)
-load.LFdata: no visible global function definition for 'sqlTables'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/load.LFdata.R:7)
-load.LFdata: no visible global function definition for 'odbcGetInfo'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/load.LFdata.R:8)
-load.LFdata: no visible global function definition for 'sqlQuery'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/load.LFdata.R:11)
+  ‘odbcDriverConnect’
+load.LFdata: no visible global function definition for ‘sqlTables’
+load.LFdata: no visible global function definition for ‘odbcGetInfo’
+load.LFdata: no visible global function definition for ‘sqlQuery’
 make.projection.betyft.frq: no visible binding for global variable
-  'base.frq'
-map_all_pacific: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/map_all_pacific.R:14)
-map_all_pacific: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/map_all_pacific.R:15)
-old.condor.go: no visible binding for global variable 'suball'
-old.condor.go: no visible binding for global variable 'condor_files'
-oldsetup: no visible binding for global variable 'pl2'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/oldsetup.R:37)
-oldsetup: no visible binding for global variable 'pl2'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/oldsetup.R:38)
-oldsetup: no visible binding for global variable 'basedir'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/oldsetup.R:76)
-pagocatch: no visible binding for global variable 'pl2'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/pagocatch.R:10)
-pagocatch: no visible binding for global variable 'pl2'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/pagocatch.R:11)
-plot.Kobe: no visible binding for global variable 'test'
-plot.biomass: no visible binding for global variable 'test'
-plot.biomass.combined: no visible binding for global variable 'test'
-plot.fishery.impact.r: no visible binding for global variable 'testq0'
+  ‘base.frq’
+map_all_pacific: no visible global function definition for ‘map’
+old.condor.go: no visible binding for global variable ‘suball’
+old.condor.go: no visible binding for global variable ‘condor_files’
+oldsetup: no visible binding for global variable ‘pl2’
+oldsetup: no visible binding for global variable ‘basedir’
+pagocatch: no visible binding for global variable ‘pl2’
+plot.Kobe: no visible binding for global variable ‘test’
+plot.biomass: no visible binding for global variable ‘test’
+plot.biomass.combined: no visible binding for global variable ‘test’
+plot.fishery.impact.r: no visible binding for global variable ‘testq0’
 plot.fishery.impact.r: no visible binding for global variable
-  'fish.ann'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.fishery.impact.r.R:69)
+  ‘fish.ann’
 plot.fishery.impact.r: no visible binding for global variable
-  'fish.ann'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.fishery.impact.r.R:73)
-plot.fishery.impact.r: no visible binding for global variable
-  'fish.ann'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.fishery.impact.r.R:80)
-plot.fishery.impact.r: no visible binding for global variable
-  'nofish.ann'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.fishery.impact.r.R:85)
-plot.fishery.impact.r: no visible binding for global variable
-  'fish.ann'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.fishery.impact.r.R:85)
-plot.mfcl.betyft09: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.mfcl.betyft09.R:15)
-plot.mfcl.betyft09: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.mfcl.betyft09.R:16)
-plot.nofishing: no visible binding for global variable 'testq0'
+  ‘nofish.ann’
+plot.mfcl.betyft09: no visible global function definition for ‘map’
+plot.nofishing: no visible binding for global variable ‘testq0’
 plot.nofishing.combined: no visible binding for global variable
-  'testq0'
-plot.pacific.WCPFC: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.WCPFC.R:14)
-plot.pacific.WCPFC: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.WCPFC.R:15)
-plot.pacific.alb: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.alb.R:21)
-plot.pacific.alb: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.alb.R:22-23)
-plot.pacific.skj: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.skj.R:9)
-plot.pacific.skj: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.skj.R:10)
-plot.pacific.species: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.species.R:21)
-plot.pacific.species: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.species.R:22-24)
-plot.pacific.species: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.species.R:26-28)
-plot.pacific.yft: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.yft.R:14)
-plot.pacific.yft: no visible global function definition for 'map'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/plot.pacific.yft.R:15)
-plot.recruitment: no visible binding for global variable 'test'
+  ‘testq0’
+plot.pacific.WCPFC: no visible global function definition for ‘map’
+plot.pacific.alb: no visible global function definition for ‘map’
+plot.pacific.skj: no visible global function definition for ‘map’
+plot.pacific.species: no visible global function definition for ‘map’
+plot.pacific.yft: no visible global function definition for ‘map’
+plot.recruitment: no visible binding for global variable ‘test’
 plot.recruitment.combined: no visible binding for global variable
-  'test'
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:14-15)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:20)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:26)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:32)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:38)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:44)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:49)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:57)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:60)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:63)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:74)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:80)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:84)
-read.ini: no visible global function definition for 'scanText'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/read.ini.R:86)
-reconstruct.frq.ce: no visible binding for global variable 'out.data'
+  ‘test’
+read.ini: no visible global function definition for ‘scanText’
+reconstruct.frq.ce: no visible binding for global variable ‘out.data’
 reconstruct.frq.ce2008: no visible binding for global variable
-  'out.data'
-retro.frq: no visible binding for global variable 'yr'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/retro.frq.R:6)
+  ‘out.data’
+retro.frq: no visible binding for global variable ‘yr’
 run.profile: no visible global function definition for
-  'gocondor.commandline.alb'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/run.profile.R:11)
-setup.cpue: no visible binding for global variable 'psfshries'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/setup.cpue.R:12)
-setup.cpue: no visible binding for global variable 'psfshries'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/setup.cpue.R:15)
-setup.growth: no visible binding for global variable 'fixVB'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/setup.growth.R:4-8)
-setup.growth: no visible binding for global variable 'startVB'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/setup.growth.R:9)
-setup.growth: no visible binding for global variable 'startVB'
-  (/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL/R/setup.growth.R:10)
+  ‘gocondor.commandline.alb’
+setup.cpue: no visible binding for global variable ‘psfshries’
+setup.growth: no visible binding for global variable ‘fixVB’
+setup.growth: no visible binding for global variable ‘startVB’
 * checking Rd files ... WARNING
 prepare_Rd: Convert.frq.ver6.Rd:7-9: Dropping empty section \description
 prepare_Rd: Convert.frq.ver6.Rd:19-21: Dropping empty section \details
@@ -1702,5 +1593,5 @@ write.ini
 * checking examples ... OK
 * checking PDF version of manual ... OK
 WARNING: There were 6 warnings, see
-  '/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00check.log'
+  ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00check.log’
 for details
