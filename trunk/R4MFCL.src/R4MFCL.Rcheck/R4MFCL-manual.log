@@ -1,8 +1,8 @@
-This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2012.11.29)  26 JUN 2013 16:01
+This is pdfeTeXk, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2012.11.29)  13 SEP 2013 13:48
 entering extended mode
  file:line:error style messages enabled.
-**/tmp/RtmpV2iMQO/Rd2pdf3cad613/Rd2.tex
-(/tmp/RtmpV2iMQO/Rd2pdf3cad613/Rd2.tex
+**/tmp/RtmpY3CP3l/Rd2pdf76e13290/Rd2.tex
+(/tmp/RtmpY3CP3l/Rd2pdf76e13290/Rd2.tex
 LaTeX2e <2003/12/01>
 Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
 ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
@@ -617,14 +617,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 10.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 20.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 32.
 
 (/usr/share/texmf/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 24.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 24.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 38.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 38.
 
 (/usr/share/texmf/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -647,15 +647,12 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (384.78088pt too wide) in paragraph at lines 65--65
+Overfull \hbox (384.78088pt too wide) in paragraph at lines 100--100
  []\T1/pcr/m/n/10 add.cpue.frq(CPUE.file = "P:/yft/2009/Data Preparation/CPUE/i
 ndices/yft_JPstd_R1.txt", data = out.data, fishery = 1, add.cv = "T")[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [4]
-(/usr/share/texmf/tex/latex/base/utf8.def
+[4] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -673,6 +670,12 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [7]
+Overfull \hbox (696.78088pt too wide) in paragraph at lines 356--356
+ []\T1/pcr/m/n/10 change.size.frq(ver = 6, data = data, FISH = 1, LF.FILE = "P:
+/yft/2009/Data Preparation/size data/LLlendataR1.txt", WT.FILE = "P:/yft/2009/D
+ata Preparation/size data/LLwtdataR1.txt")[] 
+ []
+
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
@@ -682,68 +685,63 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (696.78088pt too wide) in paragraph at lines 417--417
- []\T1/pcr/m/n/10 change.size.frq(ver = 6, data = data, FISH = 1, LF.FILE = "P:
-/yft/2009/Data Preparation/size data/LLlendataR1.txt", WT.FILE = "P:/yft/2009/D
-ata Preparation/size data/LLwtdataR1.txt")[] 
- []
-
-[9] (/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [10]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (42.78088pt too wide) in paragraph at lines 528--528
+Overfull \hbox (42.78088pt too wide) in paragraph at lines 482--482
  []\T1/pcr/m/n/10 check_flag_value(parname, flagtype, flagnums, fishery = NA, f
 laglist = T)[] 
  []
 
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [11]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [12]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [13]
+) [9]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (474.78088pt too wide) in paragraph at lines 774--774
- []\T1/pcr/m/n/10 condor.go(run.dir, frq.obj, tag.obj, doitall.obj, ini.obj, su
-b.obj = suball, species = "alb", condor_f = condor_files, par.obj = NA, run_now
- = T)[] 
+Overfull \hbox (96.78088pt too wide) in paragraph at lines 602--602
+ []\T1/pcr/m/n/10 compare.frq(file1, file2, fm = "all", plotname, fdesc = "",lw
+d=2,what=rep(TRUE,3))[] 
  []
 
-[14] (/usr/share/texmf/tex/latex/base/utf8.def
+[10] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (480.78088pt too wide) in paragraph at lines 828--828
+Overfull \hbox (150.78088pt too wide) in paragraph at lines 652--652
+ []\T1/pcr/m/n/10 compare.size.frq(frq1, frq2, fishery = 5, wt=T, prefx = "_",d
+oyears, fdesc="",summary=TRUE)[] 
+ []
+
+[11] (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+Overfull \hbox (558.78088pt too wide) in paragraph at lines 753--753
+ []\T1/pcr/m/n/10 condor.go(run.dir, frq.obj, tag.obj, doitall.obj, ini.obj, su
+b.obj, species = "alb", condor_f = condor_files, par.obj = NA, run_now = TRUE,f
+ixpermissions=TRUE)[] 
+ []
+
+[12] (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+Overfull \hbox (480.78088pt too wide) in paragraph at lines 820--820
  []\T1/pcr/m/n/10 condor.go2(run.dir, frq.obj, tag.obj, doitall.obj, ini.obj, s
 ub.obj = suball, species = "alb", condor_f = condor_files, par.obj = NA, run_no
 w = T)[] 
  []
 
-[15] (/usr/share/texmf/tex/latex/base/utf8.def
+[13] (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [14]
+(/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [15]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
@@ -755,19 +753,19 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [17]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (240.78088pt too wide) in paragraph at lines 1050--1050
+Overfull \hbox (240.78088pt too wide) in paragraph at lines 1104--1104
  []\T1/pcr/m/n/10 do.critical.calcs(repfile = "P:/yft/2007/BaseYFT/yftfinal2007
 .rep", ests = "P:/yft/2007/BaseYFT/ests.rep")[] 
  []
 
-[18] (/usr/share/texmf/tex/latex/base/utf8.def
+[17] (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [18]
+(/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -776,63 +774,51 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [20]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (138.78088pt too wide) in paragraph at lines 1209--1209
+Overfull \hbox (138.78088pt too wide) in paragraph at lines 1298--1298
  []\T1/pcr/m/n/10 frq.remove.size.or.weight.data(data = test.data, exclude = ex
 clude, size = T, weight = F)[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[20] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [21]
+)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (72.78088pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (72.78088pt too wide) in paragraph at lines 1382--1382
  []\T1/pcr/m/n/10 get.length.output(REGION = 1, DIR = "P:/yft/2009/Data Prepara
 tion/size data/")[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[21] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [22]
+)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (54.78088pt too wide) in paragraph at lines 1335--1335
- []\T1/pcr/m/n/10 get.outcomes.alb(file.rep, file.par, catch.rep, nofish = T, S
-Bcurr_1yr = F)[] 
+Overfull \hbox (90.78088pt too wide) in paragraph at lines 1465--1465
+ []\T1/pcr/m/n/10 get.tag.structure(tagrepfile="temporary_tag_report",tagfile="
+skj.tag",year1=1972)[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [23]
-(/usr/share/texmf/tex/latex/base/utf8.def
+[22] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (72.78088pt too wide) in paragraph at lines 1410--1410
+Overfull \hbox (72.78088pt too wide) in paragraph at lines 1508--1508
  []\T1/pcr/m/n/10 get.weight.output(REGION = 1, DIR = "P:/yft/2009/Data Prepara
 tion/size data/")[] 
  []
 
+[23] (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [24]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [25]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (24.78088pt too wide) in paragraph at lines 1524--1524
+Overfull \hbox (24.78088pt too wide) in paragraph at lines 1626--1626
  []\T1/pcr/m/n/10 make.projection.betyft.frq(frq.in = base.frq, fish = 1:24, ye
 ars = 10)[] 
  []
@@ -840,12 +826,12 @@ ars = 10)[]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (216.78088pt too wide) in paragraph at lines 1557--1557
+Overfull \hbox (216.78088pt too wide) in paragraph at lines 1669--1669
  []\T1/pcr/m/n/10 map_all_pacific(plot_title = "", lims = c(100, 300, -45, 45),
  eezfile = "L:/alb/2008/Pago/eznew2.txt")[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[25] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [26]
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -863,53 +849,44 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [29]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (504.78088pt too wide) in paragraph at lines 1835--1835
+Overfull \hbox (504.78088pt too wide) in paragraph at lines 1922--1922
  []\T1/pcr/m/n/10 plot.biomass(plotdir = "H:/rmfcl/test/figs/", plotrep = test,
  varfile = NULL, type = "SSB", plotname = "H:/rmfcl/test/figs/biomass", plottyp
 e = "wmf")[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[29] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (558.78088pt too wide) in paragraph at lines 1877--1877
+Overfull \hbox (558.78088pt too wide) in paragraph at lines 1975--1975
  []\T1/pcr/m/n/10 plot.biomass.combined(plotdir = "H:/rmfcl/test/figs/", plotre
 p = test, varfile = NULL, type = "SSB", plotname = "H:/rmfcl/test/figs/biomass"
 , plottype = "wmf")[] 
  []
 
-[30] (/usr/share/texmf/tex/latex/base/utf8.def
+(/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (990.78088pt too wide) in paragraph at lines 1919--1919
+Overfull \hbox (990.78088pt too wide) in paragraph at lines 2027--2027
  []\T1/pcr/m/n/10 plot.F.time(plotdir = "H:/rmfcl/test/figs/", plotrep = "C:/as
 sessments/alb/2008/6_area/28.splitgr3/plot-08.par.rep", inifile = "C:/assessmen
 ts/alb/2008/6_area/28.splitgr3/alb.ini", plotname = "plotFtime", plottype = "wm
 f", COL = T)[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[30] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [31]
-Overfull \hbox (786.78088pt too wide) in paragraph at lines 1961--1961
+)
+Overfull \hbox (786.78088pt too wide) in paragraph at lines 2080--2080
  []\T1/pcr/m/n/10 plot.fishery.impact.r(plotdir = "H:/rmfcl/test/figs/", type =
  "Total", plotrep = testq0, impnames = c("ll", "psass", "psunass", "idph", "oth
 er"), plotname = "plotimpact", plottype = "wmf", COL = T)[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[31] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (606.78088pt too wide) in paragraph at lines 2006--2006
+Overfull \hbox (606.78088pt too wide) in paragraph at lines 2135--2135
  []\T1/pcr/m/n/10 plot.Kobe(plotdir = "S:/OFP Publications/Tuna Fishery Assessm
 ent Report/2007/Figures/BET/", plotrep = test, type = "SSB", plotname = "Kobe",
  plottype = "wmf", COL = T)[] 
@@ -927,7 +904,7 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (468.78088pt too wide) in paragraph at lines 2129--2129
+Overfull \hbox (468.78088pt too wide) in paragraph at lines 2288--2288
  []\T1/pcr/m/n/10 plot.nofishing(plotdir = "H:/rmfcl/test/figs/", plotrep = tes
 tq0, type = "SSB", plotname = "H:/rmfcl/test/figs/Kobe", plottype = "wmf", COL 
 = T)[] 
@@ -935,40 +912,40 @@ tq0, type = "SSB", plotname = "H:/rmfcl/test/figs/Kobe", plottype = "wmf", COL
 
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (522.78088pt too wide) in paragraph at lines 2171--2171
+) [34]
+Overfull \hbox (522.78088pt too wide) in paragraph at lines 2340--2340
  []\T1/pcr/m/n/10 plot.nofishing.combined(plotdir = "H:/rmfcl/test/figs/", plot
 rep = testq0, type = "SSB", plotname = "H:/rmfcl/test/figs/Kobe", plottype = "w
 mf", COL = T)[] 
  []
 
-[34] (/usr/share/texmf/tex/latex/base/utf8.def
+(/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (258.78088pt too wide) in paragraph at lines 2213--2213
+Overfull \hbox (258.78088pt too wide) in paragraph at lines 2392--2392
  []\T1/pcr/m/n/10 plot.pacific.alb(plot_title = "", eez_dir = "I:/assessments/P
 op dy modeling/MFCL/R functions/", plot_eez = T)[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
+[35] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [35]
+)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (666.78088pt too wide) in paragraph at lines 2273--2273
+Overfull \hbox (666.78088pt too wide) in paragraph at lines 2472--2472
  []\T1/pcr/m/n/10 plot.pacific.species(plot_title = "", uselims = NA, add.WCPFC
  = F, add.EPO = F, sp = "YFT", add.EEZ = T, eez_file = "I:/assessments/Pop dy m
 odeling/MFCL/R functions/EZNEW2.TXT")[] 
  []
 
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [36]
-(/usr/share/texmf/tex/latex/base/utf8.def
+[36] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (66.78088pt too wide) in paragraph at lines 2348--2348
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [37]
+Overfull \hbox (66.78088pt too wide) in paragraph at lines 2567--2567
  []\T1/pcr/m/n/10 plot.pacific.yft(plot_title = "", lims = c(100, 260, -45, 45)
 , add.WCPFC = F)[] 
  []
@@ -976,16 +953,16 @@ Overfull \hbox (66.78088pt too wide) in paragraph at lines 2348--2348
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (468.78088pt too wide) in paragraph at lines 2381--2381
+Overfull \hbox (468.78088pt too wide) in paragraph at lines 2611--2611
  []\T1/pcr/m/n/10 plot.recruitment(plotdir = "H:/rmfcl/test/figs/", plotrep = t
 est, varfile = NULL, plotname = "H:/rmfcl/test/figs/recruitment", plottype = "w
 mf")[] 
  []
 
-[37] (/usr/share/texmf/tex/latex/base/utf8.def
+[38] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (576.78088pt too wide) in paragraph at lines 2420--2420
+Overfull \hbox (576.78088pt too wide) in paragraph at lines 2661--2661
  []\T1/pcr/m/n/10 plot.recruitment.combined(plotdir = "H:/rmfcl/test/figs/", pl
 otrep = test, varfile = NULL, plotname = "H:/rmfcl/test/figs/recruitment_combin
 ed", plottype = "wmf")[] 
@@ -993,39 +970,25 @@ ed", plottype = "wmf")[]
 
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [38]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (126.78088pt too wide) in paragraph at lines 2519--2519
- []\T1/pcr/m/n/10 read.ests(rep.obj, ests = "C:/assessments/alb/2008/6_area/28.
-splitgr3/ests.rep", x = 1)[] 
- []
-
-[39] (/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
+) [39]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [40]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (198.78088pt too wide) in paragraph at lines 2615--2615
- []\T1/pcr/m/n/10 read.impact(impdir = "H:/rmfcl/test/", impnames = c("ll", "ps
-assoc", "psunassoc", "idph", "other"))[] 
- []
-
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [41]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+Overfull \hbox (126.78088pt too wide) in paragraph at lines 2841--2841
+ []\T1/pcr/m/n/10 read.ests(rep.obj, ests = "C:/assessments/alb/2008/6_area/28.
+splitgr3/ests.rep", x = 1)[] 
+ []
+
+[41] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -1034,10 +997,12 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [43]
-(/usr/share/texmf/tex/latex/base/utf8.def
+Overfull \hbox (198.78088pt too wide) in paragraph at lines 2967--2967
+ []\T1/pcr/m/n/10 read.impact(impdir = "H:/rmfcl/test/", impnames = c("ll", "ps
+assoc", "psunassoc", "idph", "other"))[] 
+ []
+
+[43] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -1046,36 +1011,33 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (336.78088pt too wide) in paragraph at lines 2876--2876
- []\T1/pcr/m/n/10 reconstruct.frq.ce(CPUE.file = "X:/yft/2009/Data Preparation/
-CPUE/indices/yft_JPstd_R1.txt", data = out.data, fishery = 1)[] 
- []
-
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [45]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (672.78088pt too wide) in paragraph at lines 2939--2939
- []\T1/pcr/m/n/10 reconstruct.frq.size(data = data, FISH = 1, LF.FILE = "P:/yft
-/2009/Data Preparation/size data/LLlendataR1.txt", WT.FILE = "P:/yft/2009/Data 
-Preparation/size data/LLwtdataR1.txt")[] 
- []
-
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [46]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [47]
+Overfull \hbox (336.78088pt too wide) in paragraph at lines 3239--3239
+ []\T1/pcr/m/n/10 reconstruct.frq.ce(CPUE.file = "X:/yft/2009/Data Preparation/
+CPUE/indices/yft_JPstd_R1.txt", data = out.data, fishery = 1)[] 
+ []
+
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-(/usr/share/texmf/tex/latex/base/utf8.def
+Overfull \hbox (672.78088pt too wide) in paragraph at lines 3282--3282
+ []\T1/pcr/m/n/10 reconstruct.frq.size(data = data, FISH = 1, LF.FILE = "P:/yft
+/2009/Data Preparation/size data/LLlendataR1.txt", WT.FILE = "P:/yft/2009/Data 
+Preparation/size data/LLwtdataR1.txt")[] 
+ []
+
+[47] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [48]
 (/usr/share/texmf/tex/latex/base/utf8.def
@@ -1087,17 +1049,9 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
-Overfull \hbox (96.78088pt too wide) in paragraph at lines 3200--3200
- []\T1/pcr/m/n/10 rename.fishery.grps.doitall(doitall, oldfs, newfs, flag, keep
- = T, newgrps = c(0))[] 
- []
-
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [50]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [51]
@@ -1106,21 +1060,18 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) [52]
-(/usr/share/texmf/tex/latex/base/utf8.def
+)
+Overfull \hbox (96.78088pt too wide) in paragraph at lines 3623--3623
+ []\T1/pcr/m/n/10 rename.fishery.grps.doitall(doitall, oldfs, newfs, flag, keep
+ = T, newgrps = c(0))[] 
+ []
+
+[52] (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [53]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-Overfull \hbox (192.78088pt too wide) in paragraph at lines 3458--3458
- []\T1/pcr/m/n/10 run.profile(rundir, rungrp, startpar = NA, ptype = "Fmult", t
-arget, nsteps = 300, penalty = 5e+05)[] 
- []
-
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [54]
@@ -1139,12 +1090,14 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 )
+Overfull \hbox (192.78088pt too wide) in paragraph at lines 3961--3961
+ []\T1/pcr/m/n/10 run.profile(rundir, rungrp, startpar = NA, ptype = "Fmult", t
+arget, nsteps = 300, penalty = 5e+05)[] 
+ []
+
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [57]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [58]
@@ -1162,9 +1115,6 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [60]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [61]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
@@ -1172,9 +1122,6 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [62]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [63]
@@ -1186,9 +1133,6 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [64]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [65]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
@@ -1196,9 +1140,6 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [66]
-(/usr/share/texmf/tex/latex/base/utf8.def
-File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-)
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [67]
@@ -1210,50 +1151,78 @@ File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
 ) [68]
 (/usr/share/texmf/tex/latex/base/utf8.def
 File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
-) (./Rd2.ind [69]
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [69]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [70]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [71]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [72]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [73]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+)
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) [74]
+(/usr/share/texmf/tex/latex/base/utf8.def
+File: utf8.def 2004/02/09 v1.1b UTF-8 support for inputenc
+) (./Rd2.ind [75]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
 
-Overfull \hbox (13.3567pt too wide) in paragraph at lines 38--39
+Overfull \hbox (13.3567pt too wide) in paragraph at lines 33--34
 []| \T1/pcr/m/n/10 frq.remove.size.or.weight.data\T1/ptm/m/n/10 , 
  []
 
-[70
+
+Overfull \hbox (1.3567pt too wide) in paragraph at lines 83--84
+[]| \T1/pcr/m/n/10 regroup_fishery_grps.doitall\T1/ptm/m/n/10 , 
+ []
+
+[76
 
 ]
-Overfull \hbox (1.3567pt too wide) in paragraph at lines 95--96
-[]| \T1/pcr/m/n/10 regroup_fishery_grps.doitall\T1/ptm/m/n/10 , 
- []
-
-
-Overfull \hbox (13.3567pt too wide) in paragraph at lines 173--174
+Overfull \hbox (13.3567pt too wide) in paragraph at lines 155--156
 []| \T1/pcr/m/n/10 frq.remove.size.or.weight.data\T1/ptm/m/n/10 , 
  []
 
-[71]
-Overfull \hbox (1.3567pt too wide) in paragraph at lines 230--231
+[77]
+Overfull \hbox (1.3567pt too wide) in paragraph at lines 205--206
 []| \T1/pcr/m/n/10 regroup_fishery_grps.doitall\T1/ptm/m/n/10 , 
  []
 
-[72] [73] [74
-
-]) (./Rd2.aux) ) 
+[78] [79]) (./Rd2.aux) ) 
 Here is how much of TeX's memory you used:
- 5049 strings out of 94500
- 74538 string characters out of 1176765
+ 5170 strings out of 94500
+ 74670 string characters out of 1176765
  102103 words of memory out of 1000000
- 7116 multiletter control sequences out of 10000+50000
+ 7103 multiletter control sequences out of 10000+50000
  44898 words of font info for 55 fonts, out of 500000 for 2000
  580 hyphenation exceptions out of 1000
- 36i,6n,34p,271b,421s stack positions out of 1500i,500n,5000p,200000b,5000s
+ 36i,6n,34p,272b,421s stack positions out of 1500i,500n,5000p,200000b,5000s
 PDF statistics:
- 1961 PDF objects out of 300000
- 753 named destinations out of 131072
- 1105 words of extra memory for PDF output out of 65536
-</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb>{/usr/share
-/texmf/fonts/enc/dvips/psnfss/8r.enc}</usr/share/texmf/fonts/type1/urw/times/ut
-mri8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/courier/u
-crr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/
-fonts/type1/urw/times/utmb8a.pfb>
-Output written on Rd2.pdf (74 pages, 419136 bytes).
+ 2046 PDF objects out of 300000
+ 913 named destinations out of 131072
+ 1001 words of extra memory for PDF output out of 65536
+</usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb>{/u
+sr/share/texmf/fonts/enc/dvips/psnfss/8r.enc}</usr/share/texmf/fonts/type1/urw/
+times/utmri8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texmf/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf/fonts/type1/urw/c
+ourier/ucrr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb></usr/shar
+e/texmf/fonts/type1/urw/times/utmb8a.pfb>
+Output written on Rd2.pdf (79 pages, 445719 bytes).
