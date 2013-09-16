@@ -1,20 +1,26 @@
-* using log directory ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck’
-* using R version 2.13.0 (2011-04-13)
-* using platform: x86_64-unknown-linux-gnu (64-bit)
-* using session charset: UTF-8
-* checking for file ‘R4MFCL/DESCRIPTION’ ... OK
-* this is package ‘R4MFCL’ version ‘0.2’
-* checking package name space information ... OK
+* using log directory 'C:/Users/simonh/Documents/Software/r4mfcl/trunk/R4MFCL.src/R4MFCL.Rcheck'
+* using R version 3.0.1 (2013-05-16)
+* using platform: i386-w64-mingw32 (32-bit)
+* using session charset: ISO8859-1
+* checking for file 'R4MFCL/DESCRIPTION' ... OK
+* this is package 'R4MFCL' version '0.2'
+* checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
+* checking if there is a namespace ... OK
 * checking for executable files ... OK
-* checking whether package ‘R4MFCL’ can be installed ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  R/.Rhistory
+These were most likely included in error. See section 'Package
+structure' in the 'Writing R Extensions' manual.
+* checking for portable file names ... OK
+* checking whether package 'R4MFCL' can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
-* checking for portable file names ... OK
-* checking for sufficient/correct file permissions ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
+* checking for left-over files ... OK
 * checking index information ... OK
 * checking package subdirectories ... OK
 * checking R files for non-ASCII characters ... OK
@@ -22,10 +28,10 @@
 * checking whether the package can be loaded ... OK
 * checking whether the package can be loaded with stated dependencies ... OK
 * checking whether the package can be unloaded cleanly ... OK
-* checking whether the name space can be loaded with stated dependencies ... OK
-* checking whether the name space can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
 * checking for unstated dependencies in R code ... WARNING
-'library' or 'require' call not declared from: RODBC
+'library' or 'require' call not declared from: 'RODBC'
 See the information on DESCRIPTION files in the chapter 'Creating R
 packages' of the 'Writing R Extensions' manual.
 * checking S3 generic/method consistency ... WARNING
@@ -120,55 +126,84 @@ Extensions' manual.
 * checking replacement functions ... OK
 * checking foreign function calls ... OK
 * checking R code for possible problems ... NOTE
-add.cpue.frq: no visible binding for global variable ‘out.data’
-carry.effort.frq: no visible binding for global variable ‘out.data’
-clean.lfdata: no visible binding for global variable ‘lfd’
-compare.size.frq: no visible global function definition for ‘pngfile’
-compare.size.frq: no visible global function definition for ‘jpegfile’
-condor.go: no visible binding for global variable ‘condor_files’
-condor.go2: no visible binding for global variable ‘suball’
-condor.go2: no visible binding for global variable ‘condor_files’
-convert.frq.ver6: no visible binding for global variable ‘frq’
+map_all_pacific: warning in map("world2Hires", region = c("USA",
+  "Hawaii", "Mexico", "Japan", "China", "South Korea", "North Korea",
+  "Philippines", "Vietnam", "Laos", "Taiwan", "Fiji", "Vanuatu",
+  "Malaysia", "Australia", "New Zealand", "Indonesia", "New Caledonia",
+  "Papua New Guinea", "Solomon Islands"), fill = T, add = T, yaxt =
+  "n", xaxt = "n", col = "black", density = 50): partial argument match
+  of 'region' to 'regions'
+plot.pacific.WCPFC: warning in map("world2Hires", region = c("USA",
+  "Hawaii", "Mexico", "Japan", "China", "South Korea", "North Korea",
+  "Philippines", "Vietnam", "Laos", "Taiwan", "Fiji", "Vanuatu",
+  "Malaysia", "Australia", "New Zealand", "Indonesia", "New Caledonia",
+  "Papua New Guinea", "Solomon Islands"), fill = T, add = T, yaxt =
+  "n", xaxt = "n", col = "black", density = 50): partial argument match
+  of 'region' to 'regions'
+plot.pacific.species: warning in map("world2Hires", region = c("USA",
+  "Hawaii", "Mexico", "Japan", "China", "South Korea", "North Korea",
+  "Philippines", "Vietnam", "Laos", "Taiwan", "Fiji", "Vanuatu",
+  "Malaysia", "Burma", "Thailand", "Cambodia", "Australia", "New
+  Zealand", "Indonesia", "New Caledonia", "Papua New Guinea", "Solomon
+  Islands", "Mongolia"), fill = T, add = T, yaxt = "n", xaxt = "n", col
+  = "black", density = 50): partial argument match of 'region' to
+  'regions'
+plot.pacific.species: warning in map("world2Hires", region =
+  c("Colombia", "Chile", "Peru", "Ecuador", "Argentina", "Honduras",
+  "Nicaragua", "Guatemala", "Belize", "Brazil", "Costa Rica", "Panama",
+  "El Salvador", "Cuba", "Venezuela", "Bolivia", "Paraguay", "Haiti",
+  "Dominican Republic", "Jamaica", "Canada"), fill = T, add = T, yaxt =
+  "n", xaxt = "n", col = "black", density = 50): partial argument match
+  of 'region' to 'regions'
+add.cpue.frq: no visible binding for global variable 'out.data'
+carry.effort.frq: no visible binding for global variable 'out.data'
+clean.lfdata: no visible binding for global variable 'lfd'
+compare.size.frq: no visible global function definition for 'pngfile'
+compare.size.frq: no visible global function definition for 'jpegfile'
+condor.go: no visible binding for global variable 'condor_files'
+condor.go2: no visible binding for global variable 'suball'
+condor.go2: no visible binding for global variable 'condor_files'
+convert.frq.ver6: no visible binding for global variable 'frq'
 frq.remove.size.or.weight.data: no visible binding for global variable
-  ‘test.data’
-get.critical.age: no visible binding for global variable ‘Base.rep’
-get.length.output: no visible binding for global variable ‘lfdata’
-get.length.output: no visible binding for global variable ‘region’
-get.length.output: no visible binding for global variable ‘strat’
-get.tag.structure: no visible global function definition for ‘getnums’
-get.tag.structure: no visible global function definition for ‘scanText’
-get.weight.output: no visible binding for global variable ‘wtdata’
-get.weight.output: no visible binding for global variable ‘region’
-labels_store: no visible binding for global variable ‘basecase.labels’
+  'test.data'
+get.critical.age: no visible binding for global variable 'Base.rep'
+get.length.output: no visible binding for global variable 'lfdata'
+get.length.output: no visible binding for global variable 'region'
+get.length.output: no visible binding for global variable 'strat'
+get.tag.structure: no visible global function definition for 'getnums'
+get.tag.structure: no visible global function definition for 'scanText'
+get.weight.output: no visible binding for global variable 'wtdata'
+get.weight.output: no visible binding for global variable 'region'
+labels_store: no visible binding for global variable 'basecase.labels'
 load.LFdata: no visible global function definition for
-  ‘odbcDriverConnect’
-load.LFdata: no visible global function definition for ‘sqlTables’
-load.LFdata: no visible global function definition for ‘odbcGetInfo’
-load.LFdata: no visible global function definition for ‘sqlQuery’
+  'odbcDriverConnect'
+load.LFdata: no visible global function definition for 'sqlTables'
+load.LFdata: no visible global function definition for 'odbcGetInfo'
+load.LFdata: no visible global function definition for 'sqlQuery'
 make.projection.betyft.frq: no visible binding for global variable
-  ‘base.frq’
-plot.Kobe: no visible binding for global variable ‘test’
-plot.biomass: no visible binding for global variable ‘test’
-plot.biomass.combined: no visible binding for global variable ‘test’
-plot.fishery.impact.r: no visible binding for global variable ‘testq0’
+  'base.frq'
+plot.Kobe: no visible binding for global variable 'test'
+plot.biomass: no visible binding for global variable 'test'
+plot.biomass.combined: no visible binding for global variable 'test'
+plot.fishery.impact.r: no visible binding for global variable 'testq0'
 plot.fishery.impact.r: no visible binding for global variable
-  ‘fish.ann’
+  'fish.ann'
 plot.fishery.impact.r: no visible binding for global variable
-  ‘nofish.ann’
-plot.nofishing: no visible binding for global variable ‘testq0’
+  'nofish.ann'
+plot.nofishing: no visible binding for global variable 'testq0'
 plot.nofishing.combined: no visible binding for global variable
-  ‘testq0’
-plot.recruitment: no visible binding for global variable ‘test’
+  'testq0'
+plot.recruitment: no visible binding for global variable 'test'
 plot.recruitment.combined: no visible binding for global variable
-  ‘test’
-read.ini: no visible global function definition for ‘scanText’
-reconstruct.frq.ce: no visible binding for global variable ‘out.data’
-retro.frq: no visible binding for global variable ‘yr’
+  'test'
+read.ini: no visible global function definition for 'scanText'
+reconstruct.frq.ce: no visible binding for global variable 'out.data'
+retro.frq: no visible binding for global variable 'yr'
 run.profile: no visible global function definition for
-  ‘gocondor.commandline.alb’
-setup.cpue: no visible binding for global variable ‘psfshries’
-setup.growth: no visible binding for global variable ‘fixVB’
-setup.growth: no visible binding for global variable ‘startVB’
+  'gocondor.commandline.alb'
+setup.cpue: no visible binding for global variable 'psfshries'
+setup.growth: no visible binding for global variable 'fixVB'
+setup.growth: no visible binding for global variable 'startVB'
 * checking Rd files ... WARNING
 prepare_Rd: Convert.frq.ver6.Rd:20-22: Dropping empty section \details
 prepare_Rd: Convert.frq.ver6.Rd:23-29: Dropping empty section \value
@@ -819,26 +854,26 @@ prepare_Rd: write_nmd.frq.Rd:46-48: Dropping empty section \seealso
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... WARNING
 Undocumented code objects:
-  get.outcomes.test
+  'get.outcomes.test'
 Undocumented data sets:
-  alb_MFCL eez2new flaglist skj_MFCL
+  'alb_MFCL' 'eez2new' 'flaglist' 'skj_MFCL'
 All user-level objects in a package should have documentation entries.
-See the chapter 'Writing R documentation files' in manual 'Writing R
-Extensions'.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
 * checking for code/documentation mismatches ... WARNING
-Functions/methods with usage in documentation object 'get.outcomes' but not in code:
+Functions or methods with usage in documentation object 'get.outcomes' but not in code:
   get.outcomes
 
-Functions/methods with usage in documentation object 'plot.mfcl.betyft09' but not in code:
+Functions or methods with usage in documentation object 'plot.mfcl.betyft09' but not in code:
   plot.mfcl.betyft09
 
-Functions/methods with usage in documentation object 'plot.pacific.alb' but not in code:
+Functions or methods with usage in documentation object 'plot.pacific.alb' but not in code:
   plot.pacific.alb
 
-Functions/methods with usage in documentation object 'plot.pacific.skj' but not in code:
+Functions or methods with usage in documentation object 'plot.pacific.skj' but not in code:
   plot.pacific.skj
 
-Functions/methods with usage in documentation object 'plot.pacific.yft' but not in code:
+Functions or methods with usage in documentation object 'plot.pacific.yft' but not in code:
   plot.pacific.yft
 
 Codoc mismatches from documentation object 'setup.LFwt':
@@ -859,18 +894,92 @@ setup.idphcatch
     Position: 3 Code: sourcedir Docs: idph
     Position: 4 Code: idph Docs: spp
 
-* checking Rd \usage sections ... OK
+* checking Rd \usage sections ... NOTE
+S3 methods shown with full name in documentation object 'merge.frq':
+  'merge.frq'
+
+S3 methods shown with full name in documentation object 'merge.tag':
+  'merge.tag'
+
+S3 methods shown with full name in documentation object 'plot.F.time':
+  'plot.F.time'
+
+S3 methods shown with full name in documentation object 'plot.Kobe':
+  'plot.Kobe'
+
+S3 methods shown with full name in documentation object 'plot.Kobe.template.bw':
+  'plot.Kobe.template.bw'
+
+S3 methods shown with full name in documentation object 'plot.Kobe.template.col':
+  'plot.Kobe.template.col'
+
+S3 methods shown with full name in documentation object 'plot.base.comparison':
+  'plot.base.comparison'
+
+S3 methods shown with full name in documentation object 'plot.biomass':
+  'plot.biomass'
+
+S3 methods shown with full name in documentation object 'plot.biomass.combined':
+  'plot.biomass.combined'
+
+S3 methods shown with full name in documentation object 'plot.fishery.impact.r':
+  'plot.fishery.impact.r'
+
+S3 methods shown with full name in documentation object 'plot.nofishing':
+  'plot.nofishing'
+
+S3 methods shown with full name in documentation object 'plot.nofishing.combined':
+  'plot.nofishing.combined'
+
+S3 methods shown with full name in documentation object 'plot.pacific.WCPFC':
+  'plot.pacific.WCPFC'
+
+S3 methods shown with full name in documentation object 'plot.pacific.species':
+  'plot.pacific.species'
+
+S3 methods shown with full name in documentation object 'plot.recruitment':
+  'plot.recruitment'
+
+S3 methods shown with full name in documentation object 'plot.recruitment.combined':
+  'plot.recruitment.combined'
+
+S3 methods shown with full name in documentation object 'sort.frq':
+  'sort.frq'
+
+The \usage entries for S3 methods should use the \method markup and not
+their full name.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... OK
 * checking contents of 'data' directory ... OK
 * checking data for non-ASCII characters ... WARNING
-  Warning: found non-ASCII string(s)
-  'alt. VB growth parameterization <96> gmlxx' in object 'flaglist'
-  'rel. to age pars(4) (growth devs) <96> gml' in object 'flaglist'
-  'seasonal growth <96> under construction [4.5.4]' in object 'flaglist'
-* checking data for ASCII and uncompressed saves ... OK
+  Warning: found non-ASCII strings
+  'alt. VB growth parameterization  gmlxx' in object 'flaglist'
+  'rel. to age pars(4) (growth devs)  gml' in object 'flaglist'
+  'seasonal growth  under construction [4.5.4]' in object 'flaglist'
+* checking data for ASCII and uncompressed saves ... WARNING
+  
+  Note: significantly better compression could be obtained
+        by using R CMD build --resave-data
+                 old_size new_size compress
+  alb_MFCL.RData    628Kb    439Kb       xz
+  eez2new.RData      18Kb     12Kb       xz
+  skj_MFCL.RData    475Kb    368Kb       xz
 * checking examples ... OK
-* checking PDF version of manual ... OK
-WARNING: There were 6 warnings, see
-  ‘/home/shares/assessments/R/packages/R4MFCL.src/R4MFCL.Rcheck/00check.log’
-for details
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+LaTeX errors found:
+! LaTeX Error: File `inconsolata.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+! Emergency stop.
+<read *> 
+         
+l.281 
+       
+!  ==> Fatal error occurred, no output PDF file produced!
+* checking PDF version of manual without hyperrefs or index ... ERROR
