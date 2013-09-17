@@ -17,7 +17,7 @@ The following object is masked from 'package:survival':
 
     untangle.specials
 
-The following object is masked from 'package:base':
+The following objects are masked from 'package:base':
 
     format.pval, round.POSIXt, trunc.POSIXt, units
 
@@ -51,7 +51,7 @@ The following object is masked from 'package:survival':
 
     untangle.specials
 
-The following object is masked from 'package:base':
+The following objects are masked from 'package:base':
 
     format.pval, round.POSIXt, trunc.POSIXt, units
 
@@ -76,7 +76,7 @@ The following object is masked from 'package:survival':
 
     untangle.specials
 
-The following object is masked from 'package:base':
+The following objects are masked from 'package:base':
 
     format.pval, round.POSIXt, trunc.POSIXt, units
 
