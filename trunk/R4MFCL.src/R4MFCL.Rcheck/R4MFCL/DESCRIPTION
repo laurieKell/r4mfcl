@@ -8,4 +8,4 @@ Maintainer: Simon Hoyle <simon.hoyle@gmail.com> and Sam McKechnie
 License: GPL-2
 Date: 2013-09-10
 Suggests: maps, mapdata, mapproj
-Built: R 3.0.1; ; 2013-09-16 01:08:27 UTC; windows
+Built: R 3.0.1; ; 2013-09-17 03:37:32 UTC; windows
