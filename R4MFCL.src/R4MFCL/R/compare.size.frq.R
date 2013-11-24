@@ -73,7 +73,6 @@ compare.size.frq <- function(frq1,frq2,fishery=5, wt=T, prefx = "_",doyears, fde
   len.1[,1:2] <- data1[,1:2]
   wei.1<- matrix(0,nrow=nrow(data1),ncol=wcol)
   wei.1[,1:2] <- data1[,1:2]
-  
   # first data set
   for(i in 1:nrow(data1))
   {
@@ -81,9 +80,12 @@ compare.size.frq <- function(frq1,frq2,fishery=5, wt=T, prefx = "_",doyears, fde
     if(data1[i,col1]==-1)
     {
     # do nothing as already zeros
-      if(wt==F | data1[i,(col1+1)]==-1)
+      if(wt==F)
       {
       # no weight data either
+      }
+      else if (data1[i,(col1+1)]==-1)
+      {
       }
       else
       {
@@ -93,11 +95,14 @@ compare.size.frq <- function(frq1,frq2,fishery=5, wt=T, prefx = "_",doyears, fde
     else
     {
     len.1[i,3:(2+lfint)] <- data1[i,col1:(col1-1+lfint)]
-      if(wt==F | data1[i,(col1-1+lfint+1)]==-1)   # col1 -1 gets to start of LF,
+      if(wt==F)   # col1 -1 gets to start of LF,
                                                   # + length of LF intervals (lfint)
                                                   # +1 to position of WF pointer
       {
       # no weight data
+      }
+      else if(data1[i,(col1-1+lfint+1)]==-1)
+      {
       }
       else
       {
@@ -119,7 +124,11 @@ compare.size.frq <- function(frq1,frq2,fishery=5, wt=T, prefx = "_",doyears, fde
             if(data2[i,col1]==-1)
             {
             # do nothing as already zeros
-                if(wt==F | data2[i,(col1+1)]==-1)
+                if(wt==F)
+                {
+                # no weight data either
+                }
+                else if (data2[i,(col1+1)]==-1)
                 {
                 # no weight data either
                 }
@@ -131,9 +140,12 @@ compare.size.frq <- function(frq1,frq2,fishery=5, wt=T, prefx = "_",doyears, fde
             else
             {
             len.2[i,3:(2+lfint)] <- data2[i,col1:(col1-1+lfint)]
-                if(wt==F | data2[i,(col1-1+lfint+1)]==-1)             # col1 -1 gets to start of LF, + length of LF intervals (lfint) +1 to position of WF pointer
+                if(wt==F)             # col1 -1 gets to start of LF, + length of LF intervals (lfint) +1 to position of WF pointer
                 {
                 # no weight data
+                }
+                else if(data2[i,(col1-1+lfint+1)]==-1)
+                {
                 }
                 else
                 {
